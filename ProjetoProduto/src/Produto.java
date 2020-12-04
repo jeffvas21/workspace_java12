@@ -42,7 +42,7 @@ public class Produto {
 	}
 	
 	public String exibirProduto() {
-		String resultado = "PRODUTO "+nome+" ("+codBarras+") \nDepto: "+departamento+" R$ "+preco;
+		String resultado = "PRODUTO "+nome+" ("+codBarras+") \nDepto: "+departamento+" R$ "+String.format("%.2f", preco);
 		return resultado;
 	}
 	
