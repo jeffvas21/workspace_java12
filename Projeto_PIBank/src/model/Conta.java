@@ -6,8 +6,6 @@ public class Conta {
 	protected String cpfTitular;
 	protected double saldo;
 	
-	
-	
 	public Conta(int numConta, String nomeTitular, String cpfTitular, double saldo) {
 		
 		this.numConta = numConta;

@@ -8,6 +8,13 @@ public class ContaEspecial extends Conta{
 		this.limite = limite;
 	}
 
+	/* é o mesmo método debitar da classe Conta?
+	 * é o mesmo cabeçalho
+	 * 
+	 * quando tenho 2 métodos de mesmo cabeçalho em classes pai e filha, damos o nome de
+	 * sobrescrita (ao invés da sobrecarga), ou seja, a classe FILHA (ContaEspecial) sobrescreve o método
+	 * definido na classe Pai.
+	 */
 	public boolean debitar(double valor) {
 		if (super.saldo + this.limite >= valor) {
 			super.saldo = saldo - valor;
