@@ -32,7 +32,7 @@ public class CartaoPrePago {
 	
 	@Override
 	public String toString() {
-		return "CartaoPrePago [numCartao=" + numCartao + ", nomeTitular=" + nomeTitular + ", anoValidade=" + anoValidade
+		return "CartaoPrePago  [numCartao=" + numCartao + ", nomeTitular=" + nomeTitular + ", anoValidade=" + anoValidade
 				+ ", mesValidade=" + mesValidade + ", saldo=" + String.format("%.2f", saldo) + "]";
 	}
 
